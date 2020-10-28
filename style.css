@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body > header {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(30, 85, 141);
+  }
+
+  body > header > h1 {
+    color: white;
+    padding-left: 36px;
+  }
+  
+  body > header > nav > ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    list-style: none;
+  }
+  
+  body > header > nav > ul > li > a {
+    margin-right: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #24D87B;
+    background-color: #24D87B;
+    border-radius: 5px;
+
+  }
+#suggested-places {
+    color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#suggested-places > div > h2 {
+    color: white;
+    font-family: Dancing Script, Arial, sans-serif;
+}
+
+#suggested-places > div > button {
+    color: white;
+    border: 1px solid #24D87B;
+    background-color: #24D87B;
+    border-radius: 5px;
+}
+
+.image {
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.Indonesia {
+    background-image: url(https://www.paradises.com/wp-content/uploads/2016/06/AP_INDONESIA_1-1.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.Australia {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/jumpstartpure/image?url=https://timeincsecure-a.akamaihd.net/rtmp_uds/3281700261001/201907/714/3281700261001_6060963782001_6060490039001-vs.jpg?pubId=3281700261001&videoId=6060490039001&w=1280&h=720&q=90&c=cc);
+    background-size: cover;
+}
+
+.Switzerland {
+    background-image: url(https://www.expatica.com/app/uploads/sites/9/2017/07/cost-of-living-in-switzerland.jpg);
+    background-size: cover;
+}
