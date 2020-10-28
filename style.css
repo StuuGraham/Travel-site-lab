@@ -58,7 +58,7 @@ body > header {
     border-radius: 5px;
 }
 
-.image {
+.suggested-image {
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
@@ -78,4 +78,72 @@ body > header {
 .Switzerland {
     background-image: url(https://www.expatica.com/app/uploads/sites/9/2017/07/cost-of-living-in-switzerland.jpg);
     background-size: cover;
+}
+
+#search-form {
+    background-color:#030548;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#search-form > h2 {
+    padding-left: 36px;
+}
+
+#search-form > form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 45px;
+}
+
+#search-form > form > input {
+    background-color:#030548;
+    color: white;
+    border: white solid 1px;
+    padding-right: 36px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+#search-form > form > select {
+    margin-left: 5px;
+    background-color:#030548;
+    color: white;
+    border: white solid 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 36px;
+    border-radius: 5px;
+}
+
+.search-button {
+    margin-left: 30px;
+    color: white;
+    background-color: #E0374C;
+    padding-top: 15px;
+    padding-right: 45px; 
+    padding-bottom: 15px; 
+    padding-left: 45px;
+    border-radius: 5px 
+}
+
+#popular > hgroup {
+    text-align: center;
+}
+
+#popular > hgroup > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+#popular > hgroup > h3 {
+    font-family: Comic-Sans, Arial, sans-serif;
+    color: lightgrey;
+}
+
+.popular-image {
+    
 }
